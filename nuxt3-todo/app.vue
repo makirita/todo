@@ -1,10 +1,5 @@
 <template>
   <div>
-    <input v-model="taskName">
-    <p>{{ taskName }}</p>
+    <NuxtPage />
   </div>
 </template>
-
-<script setup lang="ts">
-const taskName = ref<string>('');
-</script>
