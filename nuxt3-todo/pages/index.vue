@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-const taskNameList = ref<string[]>(['Vue', 'Vue3', 'Nuxt3']);
+const taskNameList = ref<string[]>([]);
 const taskName = ref<string>('');
 const addTask = () => {
   if (taskName.value === '') {
